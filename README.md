@@ -40,7 +40,7 @@ bloxOS prend le meilleur d'un bootstrapper moderne et le rend réellement agréa
 | --- | --- |
 | Interface premium | Design sombre et clair, panneaux compacts, navigation sans chevauchement |
 | Thèmes | Light, Dark, Graphite, Ocean, Emerald, Violet et Ember |
-| FastFlags | Preset complet, éditeur, gestionnaire et liste autorisée stricte |
+| FastFlags | Preset complet, éditeur et liste autorisée stricte |
 | Performance | Priorité élevée, mode faible configuration, optimisations globales |
 | Mods locaux | Curseurs, police, badge cosmétique, sons d'impact, musique, impacts silencieux |
 | Discord RPC | État lanceur, paramètres, outils, À propos, FastFlags, jeu et invitation |
