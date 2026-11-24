@@ -45,6 +45,7 @@ bloxOS prend le meilleur d'un bootstrapper moderne et le rend réellement agréa
 | Mods locaux | Curseurs, police, badge cosmétique, sons d'impact, musique, impacts silencieux |
 | Discord RPC | État lanceur, paramètres, outils, À propos, FastFlags, jeu et invitation |
 | Outils | Journaux, dossier d'installation, actions rapides et diagnostics |
+| Centre avancé | Profils, sauvegardes, diagnostic réseau, performance et récupération de session |
 | Installation | Setup autonome, aucun .NET à installer |
 
 ---
