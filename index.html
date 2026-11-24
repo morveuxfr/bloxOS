@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>bloxOS — Téléchargement</title>
+  <meta name="description" content="Télécharge bloxOS, un bootstrapper Roblox propre et personnalisable pour Windows.">
+  <style>
+    :root {
+      --bg: #121419;
+      --panel: #1e2127;
+      --panel-2: #242830;
+      --stroke: #303641;
+      --text: #e8eaed;
+      --muted: #9ca3af;
+      --accent: #9ca3af;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Inter, Segoe UI, Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 32px 18px;
+    }
+
+    .page {
+      width: min(900px, 100%);
+    }
+
+    .hero {
+      background: linear-gradient(180deg, var(--panel-2), var(--panel));
+      border: 1px solid var(--stroke);
+      border-radius: 24px;
+      padding: 44px 28px;
+      text-align: center;
+      box-shadow: 0 24px 80px rgba(0, 0, 0, .35);
+    }
+
+    .logo {
+      width: 120px;
+      height: auto;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(38px, 7vw, 68px);
+      letter-spacing: -3px;
+    }
+
+    .subtitle {
+      margin: 0 auto 28px;
+      max-width: 620px;
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.6;
+    }
+
+    .download {
+      display: inline-block;
+      padding: 14px 26px;
+      border-radius: 12px;
+      background: var(--accent);
+      color: #111318;
+      font-weight: 800;
+      text-decoration: none;
+      font-size: 16px;
+      transition: transform .15s ease, background .15s ease;
+    }
+
+    .download:hover {
+      background: #c2c8d1;
+      transform: translateY(-2px);
+    }
+
+    .meta {
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+      margin-top: 22px;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--stroke);
+      border-radius: 18px;
+      padding: 22px;
+    }
+
+    .card h2 {
+      margin: 0 0 10px;
+      font-size: 20px;
+    }
+
+    .card p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .shot {
+      width: 100%;
+      display: block;
+      border-radius: 14px;
+      border: 1px solid var(--stroke);
+      margin-top: 18px;
+    }
+
+    a.inline {
+      color: var(--accent);
+    }
+
+    @media (max-width: 700px) {
+      .grid { grid-template-columns: 1fr; }
+      .hero { padding: 34px 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <img class="logo" src="assets/logo.png" alt="Logo bloxOS">
+      <h1>bloxOS</h1>
+      <p class="subtitle">Un bootstrapper Roblox propre, rapide et personnalisable pour Windows.</p>
+      <a class="download" href="https://github.com/morveuxfr/bloxOS/releases/latest">Télécharger bloxOS</a>
+      <div class="meta">Windows x64 · archive autonome · aucun .NET à installer</div>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h2>Installation simple</h2>
+        <p>Télécharge l'archive, extrais-la puis lance <strong>bloxOS.exe</strong>. Le hash SHA256 est disponible dans <a class="inline" href="SHA256SUMS.txt">SHA256SUMS.txt</a>.</p>
+      </article>
+
+      <article class="card">
+        <h2>Interface propre</h2>
+        <p>Un menu de lancement clair et des paramètres organisés avec un thème sombre gris graphite.</p>
+      </article>
+    </section>
+
+    <section class="card" style="margin-top:18px;">
+      <h2>Aperçu</h2>
+      <img class="shot" src="assets/menu.png" alt="Menu bloxOS">
+      <img class="shot" src="assets/settings.png" alt="Paramètres bloxOS">
+    </section>
+
+    <p class="meta" style="text-align:center;">Code source privé. Page publique réservée au téléchargement.</p>
+  </main>
+</body>
+</html>

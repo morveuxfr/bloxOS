@@ -9,6 +9,10 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/morveuxfr/bloxOS/releases/latest"><img src="https://img.shields.io/badge/T%C3%A9l%C3%A9charger-bloxOS-9CA3AF?style=for-the-badge&logo=github" alt="Télécharger bloxOS"></a>
+</p>
+
+<p align="center">
   <a href="https://github.com/morveuxfr/bloxOS/releases/latest"><img src="https://img.shields.io/github/v/release/morveuxfr/bloxOS?color=9CA3AF&label=version"></a>
   <a href="https://github.com/morveuxfr/bloxOS/releases/latest"><img src="https://img.shields.io/github/downloads/morveuxfr/bloxOS/latest/total?color=9CA3AF&label=downloads"></a>
   <a href="https://discord.gg/zS7VTNGVS"><img src="https://img.shields.io/badge/discord-rejoindre-5865F2?logo=discord&logoColor=white"></a>
@@ -18,11 +22,11 @@
 
 ## Téléchargement
 
-Télécharge la dernière version depuis [la page Releases](https://github.com/morveuxfr/bloxOS/releases/latest), extrais l'archive puis lance `bloxOS.exe`.
+Clique sur le bouton **Télécharger bloxOS** ou va sur [la page Releases](https://github.com/morveuxfr/bloxOS/releases/latest), puis télécharge `bloxOS-v1.0.0-win-x64.zip`.
 
-Aucune installation de .NET n'est nécessaire : l'application est fournie avec tout ce qu'il faut.
+Extrais l'archive puis lance `bloxOS.exe`. Aucune installation de .NET n'est nécessaire.
 
-Vérification de l'archive : `SHA256SUMS.txt` est fourni dans le dépôt.
+Le fichier [`SHA256SUMS.txt`](SHA256SUMS.txt) permet de vérifier l'archive.
 
 ## Aperçu
 
@@ -34,22 +38,13 @@ Vérification de l'archive : `SHA256SUMS.txt` est fourni dans le dépôt.
   <img src="assets/settings.png" width="900" alt="Paramètres bloxOS">
 </p>
 
-## Fonctionnalités
+## Ce que contient bloxOS
 
-- Lancement direct de Roblox ou de Roblox Studio
-- Paramètres séparés pour l'optimisation, les mods et les FastFlags
-- Gestionnaire FastFlags dédié avec ajout et suppression rapide
-- Discord Rich Presence propre, avec logo bloxOS
-- Mode faible configuration pour les machines peu puissantes
-- Priorité Roblox élevée et options de lancement
-- Thème sombre gris graphite
-
-## Utilisation
-
-1. Lance `bloxOS.exe`.
-2. Choisis **Lancer Roblox** ou **Configurer les paramètres**.
-3. Depuis les paramètres, ouvre **Mods** puis **Gestionnaire de FastFlags** pour gérer tes flags.
-4. Pour revenir au menu, fais un clic droit sur l'icône bloxOS dans la barre des tâches puis **Paramètres**.
+- Lancement direct de Roblox ou Roblox Studio
+- Paramètres avec thème gris graphite
+- Gestionnaire FastFlags dédié
+- Discord Rich Presence avec logo bloxOS
+- Mode faible configuration et priorité Roblox élevée
 
 ## Discord
 
