@@ -1,1 +1,1 @@
-ecc35c1800beeb364024f99f82df887f2d8570787b5236a4230b352894994b0b  bloxOS-v1.0.0-win-x64.zip
+fc7e39ec45f860af39e97aae4fa2210f450d9e5fcbef0d5e0e6a47ae24cf9d9e  bloxOS-setup.exe

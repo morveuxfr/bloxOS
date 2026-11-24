@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/morveuxfr/bloxOS/releases/latest"><img src="https://img.shields.io/badge/T%C3%A9l%C3%A9charger-bloxOS-9CA3AF?style=for-the-badge&logo=github" alt="Télécharger bloxOS"></a>
+  <a href="https://github.com/morveuxfr/bloxOS/releases/download/v1.0.0/bloxOS-setup.exe"><img src="https://img.shields.io/badge/T%C3%A9l%C3%A9charger-EXE-9CA3AF?style=for-the-badge&logo=windows" alt="Télécharger bloxOS"></a>
 </p>
 
 <p align="center">
@@ -22,11 +22,11 @@
 
 ## Téléchargement
 
-Clique sur le bouton **Télécharger bloxOS** ou va sur [la page Releases](https://github.com/morveuxfr/bloxOS/releases/latest), puis télécharge `bloxOS-v1.0.0-win-x64.zip`.
+Télécharge directement [`bloxOS-setup.exe`](https://github.com/morveuxfr/bloxOS/releases/download/v1.0.0/bloxOS-setup.exe) puis lance-le : l'installation se fait automatiquement.
 
-Extrais l'archive puis lance `bloxOS.exe`. Aucune installation de .NET n'est nécessaire.
+Le setup installe bloxOS dans `%LOCALAPPDATA%\bloxOS`, crée les raccourcis puis lance l'application.
 
-Le fichier [`SHA256SUMS.txt`](SHA256SUMS.txt) permet de vérifier l'archive.
+Le fichier [`SHA256SUMS.txt`](SHA256SUMS.txt) permet de vérifier le setup.
 
 ## Aperçu
 
